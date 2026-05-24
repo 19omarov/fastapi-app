@@ -1,0 +1,3 @@
+@field_serializer('H_B')
+    def serialize_date(self, H_B: date, _info):
+        return H_B.strftime("%d.%m.%Y")
