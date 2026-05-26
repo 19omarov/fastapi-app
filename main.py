@@ -14,5 +14,5 @@ app.include_router(users_router)
 
 @app.get('/', tags=['BBank'])
 def hello() -> str:
-    return """Hello, it is my App: BBank"""
+    return """Hello in my App: BBank"""
 
